@@ -1,0 +1,77 @@
+.form {
+  margin-left: 5%;
+}
+.form-label {
+  margin-top: 3%;
+  font-weight: 700;
+}
+.role {
+  background-color: #f1f1f1;
+  width: 30% !important;
+  margin-top: 1%;
+}
+.card-body {
+  background-color: #f1f1f1;
+}
+.card {
+  width: 90%;
+}
+.card-title {
+  color: #f07238;
+}
+.radio_lable {
+  padding-left: 10px;
+}
+.addrole_Button {
+  display: flex;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.addrole_Button > button {
+  width: 130px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: #717171;
+  border-spacing: 5px;
+  margin: 5px;
+  float: right;
+}
+.addrole_Button > button:hover {
+  color: #fff;
+  background-color: #003366;
+  border-color: #003366; /*set the color you want here*/
+}
+.add-management{
+  width: 95%;
+}
+.save-btn {
+  background: rgb(37, 52, 75)!important;
+}
+@media screen and (max-width: 1023px) {
+
+}
+@media screen and (max-width: 767px) {
+  .add-management {
+    width: 95%;
+}
+.col-3 {
+  flex: 0 0 auto;
+  width: 52%;
+}
+.role {
+  background-color: #f1f1f1;
+  width: 95% !important;
+  margin-top: 1%;
+}
+.card-body h6 {
+  font-size: 14px;
+}
+}
+@media screen and (max-width: 320px) {
+  .col-3 {
+    flex: 0 0 auto;
+    width: 67%;
+  }
+}

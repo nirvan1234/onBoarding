@@ -1,0 +1,196 @@
+
+ 
+select::-ms-expand {
+  display: none;
+}
+.doc-row {
+    background-color:#f1f1f1;
+    border-collapse: separate;
+    /* border-spacing:15px; */
+    color:darkblue;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+
+}
+  
+
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .form-select{
+      line-height:2.2;
+      background-color: #f1f1f1;
+  }
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .react-tel-input .country-list .country {
+    padding: 8px 9px;
+    color: darkslateblue;
+}
+.react-tel-input .form-control {
+  height: 49px!important;
+  width: 100%!important;
+  background-color: #f1f1f1!important;
+}
+.card
+{
+	width: 100%;
+	height: 250px;
+  border: none;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.cardnew{
+  margin-left: 0;
+	color: darkblue;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+}
+.card3
+{
+  text-align: center;
+}
+.labone
+{
+	margin-left: 60px;
+  color: darkblue;
+  position: absolute;
+  bottom: 90px;
+  font-weight: 600;
+}
+.labutton{
+  margin-top: 70px;
+  margin-left: 60px;
+  
+}
+.labtwo
+{
+	margin-left: 150px;
+  color: darkblue;
+  position: absolute;
+  bottom: 70px;
+  font-weight: 600;
+}
+.labthree{
+  background-color: #f07238; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.givespace{
+  margin-left: 75px;
+  position: absolute;
+  bottom: 20px;
+}
+.Instyle
+{
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: darkblue;
+  font-weight: 600;
+  position: absolute;
+  bottom:65px;
+}
+.document-header{
+  margin-bottom: 2px;
+    margin-top: 10px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    width: 100%;
+}
+.document-header tr th:first-child, .document-header tr td:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.document-header th {
+  background-color: #f07238!important;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+.document-header tr td {
+  background: #f1f1f1;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 500;
+}
+.document-header tr th:last-child, .document-header tr td:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.document-header tr td button{
+  border: none;
+}
+@media screen and (max-width: 1024px){
+  .upload-modal .labutton {
+    margin-top: 104px;}
+    .upload-modal{
+      height:482px!important;
+    }
+}
+@media screen and (max-width: 1023px){
+.addrole_Button {
+    display: flex;
+}
+.upload-modal .labutton {
+  margin-top: 104px;}
+  .upload-modal{
+    height:482px!important;
+  }
+}
+@media screen and (max-width: 767px){
+  .givespace {
+    margin-left: 64px;
+  }
+  .labone label,.labtwo label {
+    font-size: 13px;
+    text-align: center;
+}
+.card3 img {
+  max-width: 270px;
+  max-height: 270px;
+}
+.upload-modal input {
+  width: auto;
+}
+.upload-modal {
+  width: 90%!important;
+  left: 50%!important;
+  height:482px!important;
+}
+.upload-modal .labutton {
+ margin-top: 104px;}
+}
+
+ 

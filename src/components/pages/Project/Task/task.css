@@ -1,0 +1,94 @@
+.task-container {
+    margin-top:2% ;
+    margin-left: 5%;
+    width: 90%;
+}
+.addTask_Button {
+    display: flex;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .addTask_Button > button {
+    width: 130px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #717171;
+    border-spacing: 5px;
+    margin: 5px;
+    float: right;
+  }
+  .addTask_Button > button:hover {
+    color: #fff;
+    background-color: #003366;
+    border-color: #003366; /*set the color you want here*/
+  }
+  .cardnewone{
+    margin-left: 20px;
+	color: #25344b;
+  font-weight: 700;
+  padding: 20px;
+  margin-top: 15px;
+  display: flex;
+}
+.cardnewoneImagebutton{
+    margin-left: 50%;
+    height: 32px;
+    border: none;
+    background-color: white;
+}
+.designbutton{
+    width: 250px;
+    background-color:yellow;
+}
+.designbuttonew{
+   margin: 10px;
+}
+.cardforprojectnew{
+    align-items: center;
+    margin-left: 50px;
+    display: flex;
+}
+.cardforprojectnewone{
+    padding: 20px;
+}
+.cardforprojectnewtwo{
+    padding: 20px;
+}
+/* .DesRow{
+
+} */
+.labuttonew{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+  }
+  .labuttonewupper{
+    margin-left: 60px;
+    margin-top: 120px;
+    margin-bottom: 5%;
+  }
+  .css-14dclt2-Input{
+    margin:0px!important
+  }
+  table.tasks-table tr td {
+    background: #E5E5E5;
+    padding: 10px;
+}
+table.tasks-table tr td:first-child{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+table.tasks-table tr td:last-child{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.doccontainernew{
+  padding:10px 0;
+}
+  @media screen and (max-width: 767px){
+    .create-task-form {
+      display: block!important;
+  }
+  }
